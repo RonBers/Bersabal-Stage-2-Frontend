@@ -360,3 +360,79 @@ input:focus + .toggle-track {
 .container.darkmode {
   background: #131621;
 }
+
+@media (max-width: 1034px) {
+  .container {
+    overflow: scroll;
+  }
+  .card-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    max-width: 80%;
+    overflow: scroll;
+  }
+
+  .card-container2 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    max-width: 80%;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 690px) {
+  .container {
+    overflow: scroll;
+  }
+  .card-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    max-width: 80%;
+    overflow: scroll;
+  }
+
+  .card-container2 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    max-width: 80%;
+    overflow: scroll;
+  }
+
+  .magic {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #242c20;
+    transition: all 0.3s ease;
+    margin-top: 0px;
+    z-index: 2;
+  }
+}
