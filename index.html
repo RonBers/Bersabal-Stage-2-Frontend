@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Stage 2 Frontend</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <div class="container" id="container">
+    <div class="navbar">
       <div class="toggle-darkmode" id="darkmode-toggle">
         <label class="toggle-switch">
           <input type="checkbox" id="darkmode-toggle-btn" />
@@ -22,14 +22,15 @@
           <span class="toggle-thumb"></span>
         </label>
       </div>
-
-      <div class="card-container" id="card-container"></div>
-      <div class="card-container2" id="card-container2"></div>
       <div>
         <button class="magic" id="magic-btn">
           <i class="fa-solid fa-wand-magic-sparkles"></i>
         </button>
       </div>
+    </div>
+    <div class="container" id="container">
+      <div class="card-container" id="card-container"></div>
+      <div class="card-container2" id="card-container2"></div>
     </div>
     <script src="script.js"></script>
   </body>
